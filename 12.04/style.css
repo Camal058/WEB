@@ -1,0 +1,338 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    border-style: none;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.head-container1 {
+    width: 100%;
+    height: 50px;
+    background-color: lightgray;
+}
+
+.head-container2 {
+    width: 100%;
+    height: 70px;
+    background-color: darkred;
+}
+
+.head-container3 {
+    width: 100%;
+    height: 160px;
+    background-color: lightgray;
+}
+
+.head-container4 {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+    margin-left: 350px;
+}
+
+.half11 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.half2 {
+    background-color: darkred;
+
+    height: 70px;
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.half2 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.extra-sites {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    float: left;
+}
+
+.extra-sites ul li a {
+    text-decoration: none;
+    color: grey;
+    margin-right: 15px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.information {
+    display: flex;
+    justify-content: flex-end;
+    width: 800px;
+    height: 50px;
+    float: right;
+}
+
+.information ul li a {
+    text-decoration: none;
+    color: grey;
+    margin-right: 15px;
+}
+
+.information ul li a i {
+    margin-right: 2px;
+}
+
+.information ul li:nth-child(1) {
+    color: black;
+    margin-right: 15px;
+}
+
+nav {
+    height: inherit;
+    width: 700px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 30px;
+    color: white;
+}
+
+
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add button {
+    background-color: green;
+    color: aliceblue;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+.part1 {
+    width: 210px;
+    height: 140px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px 0px 0 40px;
+}
+
+.part2 {
+    width: 210px;
+    height: 140px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px 0px 0 0px;
+    margin-left: 68px;
+}
+
+.part3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.price {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.price-min {
+    border-style: none;
+    border-radius: 5px 0px 0px 5px;
+    box-sizing: border-box;
+    width: 105px;
+}
+
+.price-max {
+    border-style: none;
+    border-radius: 0px 5px 5px 0px;
+    border-left: rgb(201, 201, 201) solid 1px;
+    box-sizing: border-box;
+    width: 105px;
+}
+
+select {
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    color: grey;
+}
+
+select, input {
+    padding: 10px;
+    height: 40px;
+
+}
+
+.select-currency {
+    margin-right: 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    width: inherit;
+}
+
+.label1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+    color: grey;
+    border-radius: 5px;
+    width: 45px;
+    height: 40px;
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.label2 {
+    border: none;
+    background-color: white;
+    color: grey;
+    font-size: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    width: 45px;
+    height: 40px;
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+
+.labels {
+    height: 40px;
+    margin-bottom: 15px;
+    width: inherit;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.labelcr1, .labelcr2, .labelcr3 {
+    min-width: 45px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    color: grey;
+    border-radius: 5px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.labelcr1 {
+    border-style: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.labelcr2 {
+    border-style: none;
+    border-radius: 0px;
+    border-left: grey;
+    border-right: grey;
+}
+
+.labelcr3 {
+    border-style: none;
+    border-radius: 0px 5px 5px 0px;
+    box-sizing: border-box;
+}
+
+
+.il-min {
+    border-style: none;
+    border-radius: 5px 0px 0px 5px;
+    width: 105px;
+}
+
+.il-max {
+    border-style: none;
+    border-radius: 0px 5px 5px 0px;
+    border-left: rgb(201, 201, 201) solid 1px;
+    width: 105px;
+}
+
+.quantity {
+    color: blue;
+}
+
+.sifirla-button {
+    color: gray;
+    border: 0 none;
+    background-color: whitesmoke;
+}
+
+.filtr-select {
+    border: 0 none;
+    color: darkred;
+    margin-left: 30px;
+}
+
+.elan-button {
+    border-radius: 5px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    height: 40px;
+    margin-left: 30px;
+}
