@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: monospace;
 }
 
 ul{
@@ -24,6 +23,10 @@ ul li a{
     text-space: center;
 }
 
+ul li a:hover{
+    background: black;
+}
+
 ul li ul.dropdown li {
     display: block;
 }
@@ -32,12 +35,7 @@ ul li ul.dropdown{
     width: 150%;
     background:darkred;
     position: absolute;
-    z-index: 999;
     display: none;
-}
-
-ul li a:hover{
-    background: black;
 }
 
 ul li:hover ul.dropdown{
