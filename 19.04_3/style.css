@@ -1,0 +1,260 @@
+/*  №1
+h1, h2{
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+button {
+    height: 150px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10px;
+    width: 200px;
+    background-color: whitesmoke;
+}
+
+img {
+    height: 90%;
+    width: 80%;
+}
+
+span {
+    padding: 50px;
+    font-weight: bold;
+}
+
+hr{
+    margin-top: 30px;
+}*/
+
+
+
+
+/*  №2
+div {
+
+    height: 600px;
+    width: 350px;
+    background-color: grey;
+}
+
+ul {
+    margin-left: -40px;
+}
+
+li {
+    width: 350px;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    color: white;
+}
+
+li:hover{
+    background-color: darkslategrey;
+}
+
+img {
+    height: 80%;
+    width: 40%;
+}
+
+span{
+    text-align: center;
+    font-weight: bold;
+}*/
+
+
+
+
+/* №3
+body{
+    margin: 20px;
+}
+
+p{
+    float: left;
+    font-weight: bold;
+    color: white;
+    margin-left: 45px;
+}
+
+.header {
+    margin: 16px;
+    height: 100px;
+    background-color: rebeccapurple;
+}
+
+.menu {
+    margin: 16px;
+    height: 80px;
+    background-color: purple;
+}
+
+.aside {
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.aside1 {
+    float: left;
+    position: relative;
+    margin-right: 10px;
+    height: 100px;
+    width: 300px;
+    background-color: mediumpurple;
+}
+
+.aside2 {
+    float: left;
+    position: absolute;
+    top: 35%;
+    margin-right: 10px;
+    height: 130px;
+    width: 300px;
+    background-color: mediumpurple;
+}
+.main {
+    margin: 16px;
+    display: flex;
+}
+
+.main-content{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 365px;
+    width: 1500px;
+    background-color: mediumpurple;
+}
+
+.section1{
+    background-color: peachpuff;
+    align-self:center;
+    margin-top: 10px;
+    height: 100px;
+    width: 1300px;
+}
+
+.section2 {
+    background-color: peachpuff;
+    align-self:center;
+    margin-top: 10px;
+    height: 100px;
+    width: 1300px;
+}
+
+.aside3 {
+    height: 230px;
+    width: 100px;
+    background-color: mediumpurple;
+}
+.footer {
+    margin: 16px;
+    height: 60px;
+    background-color: purple;
+}*/
+
+
+/* №4
+a {
+
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    margin-top: 10px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+}
+
+li {
+    margin: 20px;
+}
+
+.footer {
+    height: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: midnightblue;
+}
+
+.footer .links {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px solid white;
+}
+
+.footer .links .menu {
+    display: flex;
+}
+
+.footer .links .menu .menu-links {
+    width: 480px;
+    justify-content: space-between;
+}
+
+.footer .links .menu a:hover {
+    text-decoration: underline;
+}
+
+.footer .links .site{
+    width: 130px;
+    height: 195px;
+    position: relative;
+    display: inline-block;
+}
+
+.footer .links .site .fb-icon {
+    background-image: url(Images/sites/fb_gray.png);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.footer .links .site .insta-icon {
+    background-image: url(Images/sites/insta_gray.png);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.footer .links .site .youtube-icon {
+    background-image: url(Images/sites/youtube_gray.png);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.footer .links .site .fb-icon:hover {
+    background-image: url(Images/sites/fb.png);
+}
+.footer .links .site .insta-icon:hover {
+    background-image: url(Images/sites/insta.png);
+}
+.footer .links .site .youtube-icon:hover {
+    background-image: url(Images/sites/youtube.png);
+}
+.footer .company {
+    text-align: center;
+    margin: 20px;
+}
+*/
